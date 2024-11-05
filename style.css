@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Mise en forme générale de la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Couleur de fond douce */
+}
+
+/* Mise en forme du titre */
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style du carré coloré */
+#color-box {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000; /* Couleur par défaut */
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Transition douce lors du changement de couleur */
+}
+
+/* Style du bouton */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Changement de couleur du bouton au survol */
+button:hover {
+    background-color: #0056b3;
+}
